@@ -1,4 +1,4 @@
-import getAddress from "../services/apiGeocoding";
+import { getAddress } from "../services/apiGeocoding";
 
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 
